@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+	<style type="text/css">
+		*{box-sizing: border-box;}
+		body{
+			margin: 0;
+			font-family: "Gilroy";
+			font-size: 18px;
+		}
+		img{
+			width: 100%;
+			display: block;
+		}
+		a{
+			text-decoration: none;
+			color: inherit;
+		}
+
+		header{
+			background-color: #fafafa;
+			padding: 40px;
+		}
+		.hed{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		header img{
+			width: 40px;
+		}
+		nav{
+			width: 330px;
+		}
+		.cl1{
+			width: 140px;
+			border-radius:5px;
+			height: 40px;
+			line-height: 40px
+			border:1px solid #F79419;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		.n1{
+			padding: 0;
+			margin: 0;
+			display: flex;
+			list-style-type: none;
+			justify-content: space-between;
+		}
+		.s1{
+			background-color: #f1f1f1;
+		}
+		.s2{
+			display: flex;
+			align-items: center;
+		}
+		.s2 div{
+			width: 50%;
+		}
+		.s7,.s8 {
+			width: 430px;
+			margin: auto;
+		}
+		.s7 h1{
+			font-size: 55px ;
+		}
+		h3, h5{
+			font-weight: 400;
+		}
+		.s7 p{
+			font-size: 20PX;
+		}
+		.cL2{
+			width: 200px;
+			height: 60px;
+			line-height: 60px;
+			background-color: #F7941E;
+			color: #fff;
+			text-align: center;
+			border-radius: 5px;
+			text-transform: uppercase;
+		}
+		.t1 h3, h5{
+			text-align: center;
+		}
+		.t3{
+			width: 270px;
+			background-color: #FAFAFA;
+			transition: .3s
+		}	
+		.t3:hover{
+			background-color: #fff;
+			box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.05);
+		}
+		.t5{
+			padding: 24px;
+		}
+		.t7{
+			margin-top: 75px;
+			font-size: 14px;
+		}
+		.t2{
+			display: flex;
+			justify-content: space-between;
+			padding: 60px;
+		}
+		.x2{
+			width: 1170px;
+			margin: auto;
+			padding:80px 0;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.x1{
+			background-color: #F7941E;
+		}
+		.x3 p{
+			font-size: 32px;
+			margin:4px;
+		}
+		.x3 h3{
+			font-weight: 600;
+			font-size: 32px;
+			margin: 4px;
+		}
+		.x6 div{
+			width: 200px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			border-radius: 5px;
+			text-transform: uppercase;
+		}
+		.x7{
+			background-color: #231F20;
+			color: white;
+		}
+		.x8{
+			border: 1px solid #231F20;
+		}
+		.x5{
+			width: 415px;
+		}
+		.x6{
+			display: flex;
+			justify-content: space-between;
+		}
+		.z2 h3,h5{
+			text-align: center;
+		}
+		.z2{
+			padding: 85px 0;
+		}
+		.z3{
+			background-color:#231F20;
+			display: flex;
+			margin: auto;
+			margin-top: 60px;
+			width: 1140px;
+		}
+		.z4{
+			width: 400px;
+		}
+		.z5{
+			width: 500px;
+			padding: 65px 80px;
+			
+			color: #fff;
+			align-items: center ;
+		}
+		.z6{
+			font-size: 14px;
+		}
+		.z3 h3{
+			font-size: 46px;
+			font-weight: 400;
+		}
+		.z8{
+			display: flex;
+			justify-content: space-between;
+			margin: 40px 100px;
+		}
+		.z9 h4{
+			font-size: 18px;
+		}
+		.z9 .z7{
+			font-size: 14px;
+		}
+		.z9{
+			width: 570px;
+			padding: 50px;
+			transition: .3s;
+		}
+		.z9:hover{
+			box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.05)
+		}
+		footer{
+			background-color: #FAFAFA;
+			padding: 115px 0 35px;
+		}
+		footer nav{
+			width: 600px;
+			margin: auto;
+		}
+		footer nav ul{
+			display: flex;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			align-items: center;
+		}
+		footer nav li{
+			font-weight: 700;
+			font-size: 14px;
+			padding: 0 25px;
+		}
+		footer nav li:first-child{
+			padding-left: 0;
+		}
+		footer nav li:last-child{
+			padding-right: 0;
+		}
+
+		.a1{
+			padding: 0 115px!important;
+		}
+		.a1 img{
+			width: auto;
+		}
+		.a2{
+			width: 1000px;
+			margin: 55PX auto;
+			border: 1px solid #000;
+		}
+		.a3{
+			width: 300px;
+			display: flex;
+			justify-content: space-between;
+			margin: auto;
+		}
+		.a4{
+			font-size: 14px;
+			text-align: center;
+			margin-top: 70px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="hed">
+			<div>
+				<img src="file:///C:/Users/DELL/Downloads/Logo.png">
+			</div>
+			<nav> 
+				<ul class="n1">
+				<li>Home</li>
+				<li>About Us</li>
+				<li>Service</li>
+				<li>Blogs</li>
+				</ul>
+			</nav>
+			<div class="cl1">
+				gift finder
+			</div>
+	</header>
+	<main>
+		<section class="s1">
+			<div class="s2">
+				<div class="s3">
+					<div class="s7">
+						<h1>Find a gift for your wife or girlfriend</h1>
+						<p>Struggling to find a gift for your wife or girlfriend?
+						No problem!
+						</p>
+						<div class="cl2">
+							Find gift now
+						</div>		
+					</div>
+				</div>
+				<div class="s4">
+					<img src="file:///C:/Users/DELL/Downloads/Background.png">
+				</div>
+			</div>
+			<div class="s2">
+				<div class="s5"><img src="file:///C:/Users/DELL/Downloads/Media%20Background.png"></div>
+				<div class="s6">
+					<div class="s8">
+						<h3>How we work</h3>
+						<p>We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="t1">
+			<h3>Gifts for all Occasions</h3>
+			<h5>“Try our web app to find the best gifts for all occasions”</h5>
+			<div class="t2">
+				<div class="t3">
+					<div class="t4"><img src="file:///C:/Users/DELL/Downloads/Rectangle.png"></div>
+					<div class="t5">
+						<div class="t6">Birthday</div>
+						<div class="t7"><a href="#">See More</a></div>
+					</div>
+				</div>
+				<div class="t3">
+					<div class="t4"><img src="file:///C:/Users/DELL/Downloads/Media.png"></div>
+					<div class="t5">
+						<div class="t6">Anniversary</div>
+						<div class="t7"><a href="#">See More</a></div>
+					</div>
+				</div>
+				<div class="t3">
+					<div class="t4"><img src="file:///C:/Users/DELL/Downloads/Media%20(1).png"></div>
+					<div class="t5">
+						<div class="t6">Valentine's Day</div>
+						<div class="t7"><a href="#">See More</a></div>
+					</div>
+				</div>
+				<div class="t3">
+					<div class="t4"><img src="file:///C:/Users/DELL/Downloads/Media%20(2).png"></div>
+					<div class="t5">
+						<div class="t6">Christmas</div>
+						<div class="t7"><a href="#">See More</a></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="x1">
+			<div class="x2">
+				<div class="x3">
+					<h3>Ready to get started?</h3>
+					<p>Sign up or contact us</p>
+				</div>
+				<div class="x4">
+					<div class="x5">
+						<div class="x6">
+							<div class="x7">Find gift now</div>
+							<div class="x8">how it works</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="z1">
+			<div class="z2">
+				<h3>Our Best Blogs Ever</h3>
+				<h5>“Try our blog to find the best tips and tricks to select your gift”</h5>
+				<div class="z3">
+					<div class="z4"><img src="file:///C:/Users/DELL/Downloads/Media%20(3).png"></div>
+					<div class="z5">
+						<div class="z6">Mr. John Doe</div>
+						<h3>The best way to wish your wife</h3>
+						<div class="z7"> <a href="#"> Read More</a></div>
+					</div>
+				</div>
+				<div class="z8">
+					<div class="z9">
+						<h4>Database to find the gifts for your girlfriend</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+						<div class="z7"><a href="#">Read More</a></div>
+					</div>
+					<div class="z9">
+						<h4>How Artificial Intelligence read your mind to find the best gift</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+						<div class="z7"><a href="#">Read More</a></div>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<footer>
+			<nav>
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li class="a1"><img src="file:///C:/Users/DELL/Downloads/logo%20(1).png"></li>
+					<li>Service</li>
+					<li>Blog</li>
+				</ul>
+			</nav>
+			<div class="a2"></div>
+			<div class="a3">
+				<div><img src="file:///C:/Users/DELL/Downloads/Vector.png"></div>
+				<div><img src="file:///C:/Users/DELL/Downloads/Vector%20(1).png"></div>
+				<div><img src="file:///C:/Users/DELL/Downloads/Vector%20(2).png"></div>
+				<div><img src="file:///C:/Users/DELL/Downloads/Vector%20(3).png"></div>
+				<div><img src="file:///C:/Users/DELL/Downloads/Vector%20(4).png"></div>
+			</div>
+			<div class="a4">
+				© 2010 — 2020 Privacy — Terms
+			</div>
+		</footer>
+	</main>
+</body>
+</html>
